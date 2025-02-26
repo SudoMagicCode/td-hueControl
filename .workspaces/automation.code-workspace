@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Automation",
+			"path": "../.github/"
+		},
+		{
+			"name": "Build Scripts",
+			"path": "../Scripts/"
+		}
+	],
+	"settings": {}
+}
