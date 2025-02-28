@@ -4,7 +4,7 @@
 [zoe sandoval](https://zoesandoval.com)
 
 ## TouchDesigner Version
-* 099 2023.32660
+* 099 2023.12120
 
 ## OS Support
 * Windows 10
@@ -15,11 +15,15 @@ Philips Hue smart lights are intended to be used in homes / studios. The devices
 
 This TOX provides global control for all lights, or individual control for single lights.
 
+## Repo Changes
+
+This repo was previously hosted on [Matthew's personal account here](https://github.com/raganmd/touchdesigner-hueControl). That was a great place for this project to start, but in the years since it was first created there have been lots of changes to how we create reusable and distributable TOX files. To that end, SudoMagic has done a good bit of work to automate and normalize our own internal processes for creating TOX files, and it only made sense to start collecting our tools in one place. We're still excited about creating and making TouchDesigner modules, and this helps us keep all of our work running smoothly in one place.
+
 ## Use and Installation
+
 The steps below cover a typical installation and use of the `hueControl` TOX.
 
-1. Download the `hueControl` TOX file from the [releases page of this repository](https://github.com/raganmd/touchdesigner-hueControl/releases). Be sure to download the `TDHueControl.tox
-`. Drop the TOX into your network. 
+1. Download the `release.zip` from the [releases page for this repo](https://github.com/SudoMagicCode/td-hueControl/releases). The build operations for this repo have been automated, so you can now find a zip file of all the required elements neatly bundled on this page.
 2. Locate and add your bridge IP address - input this IP address into the `Bridgeip` parameter for the TOX.
 3. Click the `Link to Bridge` parameter on the TOX. This will prompt you to click the link button on your bridge before clicking `Continue` in TouchDesigner.
 4. Click `Initialize Lights` to fetch a list of all of the lights currently configured with your Hue Bridge.
