@@ -10,6 +10,12 @@
 * Windows 10
 * macOS (currently untested)
 
+## TDM Installation
+If you are using the [TouchDesigner Dependency Manager](https://github.com/SudoMagicCode/TouchDesigner-Dependency-Manager) you can add this component to your local project with a `add package` command.
+```shell
+tdm add package github.com/SudoMagicCode/td-hueControl
+``` 
+
 ## Summary
 Philips Hue smart lights are intended to be used in homes / studios. The devices come in many varieties - individual lamps, outdoor lights, LED strip lights, etc. These are synchronized by communicating with an additional device called a Bridge. A single Bridge can control up to 50 lights. There are many stand alone applications to drive Hue Lights, and this repo aims to provide some additional control by exposing those controls through TouchDesigner. Previously this was addressed by using the `phue` library - this caused number of challenges for TouchDesigner users looking to install a 3rd party library. In this most recent update, the control mechanics have been changed to work with the latest hue api, and have moved to using just the `requests` library that ships with TouchDesigner.
 
