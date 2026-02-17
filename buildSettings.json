@@ -1,7 +1,8 @@
 {
     "BUILD": "TRUE",
-    "TD_VERSION": "2023.12230",
+    "TD_VERSION": "2025.32280",
     "PROJECT_FILE": "./TouchDesigner/project.toe",
-    "REPO": "https://github.com/SudoMagicCode/td-hueControl",
-    "COMP_NAME": "TDHueControl"
+    "BUILD_CONTENTS": "packageZip",
+    "COMP_NAME": "TDHueControl",
+    "USE_TDM": "TRUE"
 }
