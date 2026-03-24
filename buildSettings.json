@@ -1,8 +1,8 @@
 {
-    "BUILD": "TRUE",
-    "TD_VERSION": "2025.32280",
+    "BUILD": true,
+    "TD_VERSION": "2025.32460",
     "PROJECT_FILE": "./TouchDesigner/project.toe",
     "BUILD_CONTENTS": "packageZip",
     "COMP_NAME": "TDHueControl",
-    "USE_TDM": "TRUE"
+    "USE_TDM": true
 }
